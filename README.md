@@ -1,27 +1,36 @@
-# Advanced Objects: Sugar Library
+# Sugar.js
 
-In this exercise we'll be creating some helpful extensions to the `Object` object in JavaScript, inspired by the [Sugar JavaScript library](https://sugarjs.com/docs/#/Object). Note
+[Sugar.js](https://sugarjs.com/) is a JavaScript utility library for working with native objects. It allows, amongst other things, extension of the `Object` object with additional helpful methods.
 
-The aim of this exercise is to become more comfortable working with objects in JavaScript, specifically:
+This projects replicates some of the functionality of Sugar.js.
 
-- Looping over objects
-- Adding, modifying and removing key-value pairs
-- Making copies of objects
+It has been developed with full TDD.
 
-In this exercise, the tests are already written for you. Take a good look at them, as they offer lots of demonstrations of more complex testing.
+### Running the tests
 
-### Get started
+[Node.js](https://nodejs.org/en/) must be installed if not already.
 
-1. First, **fork** and **clone** this repository onto your computer
+First, clone this repository and install dependencies:
 
-2. `cd` into the new directory which is created
+    npm install
 
-3. run `npm install` to install the dependencies
+To run the test suite:
 
-4. head over to [TASKS.md](./docs/TASKS.md) for instructions on how to complete the exercise
+    npm test
 
-### Further work
+### API
 
-If you want to extend this project in the future, perhaps to provide an additional item for your portfolio, take a look at other methods for Objects listed on the [Sugar documentation](https://sugarjs.com/docs/#/Object) and feel free to implement, and test, more methods of your choice.
+This project implements the following methods:
 
-Many of the functions have more advanced functionality than we have implemented here - feel free to read the documentation and extend your methods to be more powerful, using the Red-Green-Refactor development cycle.
+- [`Object.size`](https://sugarjs.com/docs/#/Object/size)
+- [`Object.min`](https://sugarjs.com/docs/#/Object/min)
+- [`Object.max`](https://sugarjs.com/docs/#/Object/max)
+- [`Object.clone`](https://sugarjs.com/docs/#/Object/clone)
+- [`Object.get`](https://sugarjs.com/docs/#/Object/get)
+- [`Object.has`](https://sugarjs.com/docs/#/Object/has)
+- [`Object.sum`](https://sugarjs.com/docs/#/Object/sum)
+- [`Object.invert`](https://sugarjs.com/docs/#/Object/invery)
+- [`Object.addAll`](https://sugarjs.com/docs/#/Object/addAll)
+- [`Object.find`](https://sugarjs.com/docs/#/Object/find)
+- [`Object.every`](https://sugarjs.com/docs/#/Object/every)
+- [`Object.some`](https://sugarjs.com/docs/#/Object/some)

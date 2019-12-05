@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/techreturners/programming_fundamentals_005#readme",
   "dependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "sugar": "^2.0.6"
   },
   "devDependencies": {
     "eslint": "^6.1.0"
